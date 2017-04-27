@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "./node_modules/mocha/bin/mocha --require should",
     "doc": "documentation build ./lib/square.js -f html -o docs"
   },
   "repository": {
@@ -21,6 +21,7 @@
     "@ull-gabriel-danid-danir-l1/ull-shape": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.6.3",
+    "mocha": "^3.3.0",
     "should": "^11.2.1",
     "util": "^0.10.3"
   }
